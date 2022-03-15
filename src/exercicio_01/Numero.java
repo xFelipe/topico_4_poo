@@ -1,8 +1,8 @@
 package exercicio_01;
 
 public class Numero {
-	int n1;
-	int n2;
+	private int n1;
+	private int n2;
 
 	public int getN1() {
 		return n1;

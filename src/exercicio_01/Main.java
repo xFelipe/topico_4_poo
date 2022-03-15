@@ -7,15 +7,15 @@ public class Main {
 		num.setN1(100);
 		num.setN2(200);
 		
-		System.out.println("n1: " + num.n1);
-		System.out.println("n2: " + num.n2);
+		System.out.println("n1: " + num.getN1());
+		System.out.println("n2: " + num.getN2());
 		
 		System.out.println("Troca!");
 		num.troca();
 		
 
-		System.out.println("n1: " + num.n1);
-		System.out.println("n2: " + num.n2);
+		System.out.println("n1: " + num.getN1());
+		System.out.println("n2: " + num.getN2());
 	}
 
 }
